@@ -14,7 +14,3 @@ This project introduces an efficient and effective method to render animated, li
 * [glad](https://github.com/Dav1dde/glad)
 * [ImGui](https://github.com/ocornut/imgui)
 * [stb_image.h](https://github.com/nothings/stb)
-
-## References
-* Sam Freed. "Tessellated Voxelization for Global Illumination using Voxel Cone Tracing." Master's Thesis 2018. California Polytechnic State University, San Luis Obispo Digital Commons. 
-* Robert Larsson. "Interactive Real-Time Smoke Rendering." Master's Thesis 2010. Chalmers University of Technology. 
