@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\ext\glad\src\glad.c">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\Mouse.cpp">
+      <Filter>src\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\Window.cpp">
+      <Filter>src\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="IO\Keyboard.cpp">
+      <Filter>src\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Mesh.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Texture.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\GLSL.cpp">
+      <Filter>src\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Shader.cpp">
+      <Filter>src\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui\imgui_demo.cpp">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui\imgui_draw.cpp">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\imgui\imgui.cpp">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\VoxelShader.cpp">
+      <Filter>src\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\VoxelizeShader.cpp">
+      <Filter>src\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ConeTraceShader.cpp">
+      <Filter>src\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudVolume.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\SunShader.cpp">
+      <Filter>src\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ext">
+      <UniqueIdentifier>{a1735e5b-c01d-45eb-b937-869f0ba27591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{888db46b-1747-472a-b64c-f7b5cdc5d1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glsl">
+      <UniqueIdentifier>{7574fe72-d50e-40c5-934f-3b82daa41914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\IO">
+      <UniqueIdentifier>{ba92efaa-7890-44fd-9a84-8cd13d59f3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Shaders">
+      <UniqueIdentifier>{6130924e-8c6a-414c-9c72-343fe6d2975c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Model">
+      <UniqueIdentifier>{1f96ca8d-d390-45a4-8526-e576963027b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ThirdParty">
+      <UniqueIdentifier>{7099358b-f1df-4a2b-b7fc-932cbdd425eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ThirdParty\imgui">
+      <UniqueIdentifier>{bdc1dd4e-b14e-4abc-9347-c75d981b8e91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\Keyboard.hpp">
+      <Filter>src\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\Mouse.hpp">
+      <Filter>src\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="IO\Window.hpp">
+      <Filter>src\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Mesh.hpp">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Texture.hpp">
+      <Filter>src\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\GLSL.hpp">
+      <Filter>src\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Shader.hpp">
+      <Filter>src\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>src\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\imgui.h">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\imgui_impl_glfw_gl3.h">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\imgui_internal.h">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\stb_rect_pack.h">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\stb_textedit.h">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\stb_truetype.h">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\imgui\imconfig.h">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\VoxelShader.hpp">
+      <Filter>src\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\VoxelizeShader.hpp">
+      <Filter>src\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ConeTraceShader.hpp">
+      <Filter>src\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudVolume.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\SunShader.hpp">
+      <Filter>src\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\tiny_obj_loader.h">
+      <Filter>src\ThirdParty</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ThirdParty\imgui\LICENSE">
+      <Filter>src\ThirdParty\imgui</Filter>
+    </None>
+    <None Include="..\res\voxel_vert.glsl">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="..\res\voxel_frag.glsl">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="..\res\conetrace_frag.glsl">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="..\res\billboard_vert.glsl">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="..\res\first_voxelize.glsl">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="..\res\second_voxelize.glsl">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="..\res\debug_frag.glsl">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="..\res\sun_frag.glsl">
+      <Filter>glsl</Filter>
+    </None>
+    <None Include="..\res\billboard_vert_instanced.glsl">
+      <Filter>glsl</Filter>
+    </None>
+  </ItemGroup>
+</Project>
