@@ -11,11 +11,6 @@ This project introduces an efficient and effective method to render animated, li
 * Spherical voxelization of a 3D texture using billboards
 * Voxel cone tracing
 
-## Development Details
-_[Devlog](http://www.jaafersheriff.com/search/label/clouds)_
-
-_[Final implementation paper](paper/senior-project.pdf)_
-
 ## Libraries Used
 * [GLFW](http://www.glfw.org/)
 * [GLM](https://glm.g-truc.net/0.9.8/index.html)
@@ -26,4 +21,3 @@ _[Final implementation paper](paper/senior-project.pdf)_
 ## References
 * Sam Freed. "Tessellated Voxelization for Global Illumination using Voxel Cone Tracing." Master's Thesis 2018. California Polytechnic State University, San Luis Obispo Digital Commons. 
 * Robert Larsson. "Interactive Real-Time Smoke Rendering." Master's Thesis 2010. Chalmers University of Technology. 
-* Cyril Crassin, Fabrice Neyret, Miguel Sainz, Simon Green, Elmar Eisemann. Interactive Indirect Illumination Using Voxel Cone Tracing. NVIDIA Research 2011. 
